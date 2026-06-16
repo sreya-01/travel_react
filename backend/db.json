@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Sai",
+      "email": "sai@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "Sreyahsri",
+      "email": "sreyahsri@gmail.com",
+      "password": "travel2001",
+      "id": "y4VLjl25IWc"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "1",
+      "name": "Goa",
+      "country": "India",
+      "category": "Beach",
+      "budget": "Medium",
+      "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2",
+      "description": "Goa is famous for its beaches, nightlife, and Portuguese architecture.",
+      "bestTimeToVisit": "November to February",
+      "duration": "3-5 Days",
+      "rating": 4.7,
+      "price": 15000,
+      "language": "Konkani",
+      "currency": "INR",
+      "famousFor": "Beaches and Water Sports",
+      "weather": "24°C - 32°C",
+      "attractions": [
+        "Baga Beach",
+        "Calangute Beach",
+        "Dudhsagar Falls",
+        "Fort Aguada"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Manali",
+      "country": "India",
+      "category": "Hill Station",
+      "budget": "Low",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+      "description": "Manali is a beautiful hill station surrounded by snow-capped mountains.",
+      "bestTimeToVisit": "October to June",
+      "duration": "4-6 Days",
+      "rating": 4.8,
+      "price": 12000,
+      "language": "Hindi",
+      "currency": "INR",
+      "famousFor": "Adventure Sports",
+      "weather": "-2°C to 20°C",
+      "attractions": [
+        "Solang Valley",
+        "Rohtang Pass",
+        "Hadimba Temple",
+        "Mall Road"
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
